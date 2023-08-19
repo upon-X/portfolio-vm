@@ -1,0 +1,32 @@
+.navbar {
+    background-color: var(--color1);
+    padding: 0.7rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.links {
+    font-weight: bold;
+    grid-column: 3;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_contact,
+.link_projects {
+    text-decoration: none;
+    color: var(--color3);
+    border: 1px solid transparent;
+    transition: ease-in-out 0.2s;
+    padding: 0.5rem;
+}
+
+.link_contact:hover,
+.link_projects:hover {
+    border-color: var(--color4);
+    color: var(--color4);
+}
+
+.logo {}

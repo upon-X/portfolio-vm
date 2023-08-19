@@ -1,3 +1,13 @@
 :root{
-  --color1:
+  --color1: #800080;
+  --color2: #000000;
+  --color3: #ffffff;
+  --color4: #ffd700;
+  --FFRaleway: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: var(--color2);
+  margin: 0;
+  font-family: var(--FFRaleway);
 }
