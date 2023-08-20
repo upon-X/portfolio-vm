@@ -3,6 +3,9 @@
     padding: 0.7rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    -webkit-box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.75);
 }
 
 .links {
@@ -18,15 +21,12 @@
 .link_projects {
     text-decoration: none;
     color: var(--color3);
-    border: 1px solid transparent;
-    transition: ease-in-out 0.2s;
     padding: 0.5rem;
 }
 
 .link_contact:hover,
 .link_projects:hover {
-    border-color: var(--color4);
-    color: var(--color4);
+    color: var(--color3a);
 }
 
 .logo {}
