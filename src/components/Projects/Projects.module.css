@@ -1,0 +1,40 @@
+.projects {
+    color: var(--color3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10vw;
+}
+
+.title {
+    color: var(--color4);
+    text-align: center;
+}
+
+.title_project {
+    
+}
+
+.linkto {
+    color: var(--color4);
+    padding: 0.3rem;
+    text-decoration: none;
+    transition: ease-in-out 0.12s;
+    border: 1px solid var(--color4);
+}
+
+.project_p {
+    margin: 1rem 0;
+    color: var(--color3a);
+    text-align: justify;
+}
+
+@media (min-width: 600px) {
+    .linkto {
+        border-color: transparent;
+    }
+
+    .linkto:hover {
+        border: 1px solid var(--color4);
+    }
+}

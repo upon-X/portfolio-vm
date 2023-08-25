@@ -1,7 +1,7 @@
-.home{
+.home {
     display: grid;
     margin: 0 16vw;
-    }
+}
 
 .title {
     display: flex;
@@ -9,25 +9,30 @@
     text-align: center;
 }
 
-.name{
+.name {
     color: var(--color3);
     font-size: 2.7rem;
     margin-bottom: -2rem;
 }
 
-.role{
+.role {
     color: var(--color4);
     font-size: 3rem;
 }
 
-.description{
+.description {
     color: var(--color3);
     font-size: 1.2rem;
-    text-indent: 2rem;
+    text-align: center;
 }
 
-.toprojects{
-    text-align: justify;
+.toprojects,
+.tocontact {
     color: var(--color4);
     text-decoration: none;
+}
+
+.toprojects:hover,
+.tocontact:hover {
+    text-decoration: underline;
 }

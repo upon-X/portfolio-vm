@@ -16,7 +16,10 @@ export default function Home() {
             </div>
             <div>
                 <p className={styles.description}>
-                    Welcome to my portfolio. You can see and interact with my <Link to='/projects' className={styles.toprojects}>projects</Link>.
+                    Welcome to my portfolio. You can see and interact with my
+                    <Link to='/projects' className={styles.toprojects}> projects </Link>
+                    or talk to me through my
+                    <Link to='/contact' className={styles.tocontact}> contact networks </Link>
                 </p>
             </div>
             <div>
