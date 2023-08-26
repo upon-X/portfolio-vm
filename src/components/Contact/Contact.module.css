@@ -14,8 +14,10 @@
 .contact {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 15vw;
+    margin: 0 16vw;
     text-align: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .linkedin_title,
@@ -63,9 +65,28 @@
 }
 
 @media (max-width: 599px) {
-    .contact {
+    /* .contact {
         display: flex;
         flex-direction: column;
         align-items: center;    
-    }
+    } */
+        .github_svg {
+            stroke: var(--githubColor);
+        }
+    
+        .email_svg {
+            stroke: var(--emailColor);
+        }
+    
+        .insta_svg {
+            stroke: var(--instaColor);
+        }
+    
+        .linkedin_svg {
+            stroke: var(--linkedinColor);
+        }
+    
+        .wsp_svg {
+            stroke: var(--wspColor);
+        }
 }
