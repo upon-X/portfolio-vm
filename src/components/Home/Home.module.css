@@ -1,6 +1,7 @@
 .home {
     display: grid;
     margin: 0 16vw;
+    transition: ease-in-out;
 }
 
 .title {
