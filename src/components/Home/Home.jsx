@@ -1,18 +1,21 @@
 import React from 'react';
 import styles from './Home.module.css';
 import { Link } from 'react-router-dom'
+import profile from '../../assets/imagencv.webp'
 
 export default function Home() {
-    // 
     return (
         <div className={styles.home}>
             <div className={styles.title}>
                 <p className={styles.name}>
                     Valentino Micheloni
-                </p>
-                <p className={styles.role}>
+                    <br /> <span className={styles.role}>
                     Full Stack Web Developer
+                    </span>
                 </p>
+                <div className={styles.picture}>
+                    <img src={profile} className={styles.profile_img} />
+                </div>
             </div>
             <div>
                 <p className={styles.description}>

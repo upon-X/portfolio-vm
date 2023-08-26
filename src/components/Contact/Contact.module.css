@@ -3,11 +3,12 @@
     --instaColor: #ff0055;
     --emailColor: #cedd00;
     --linkedinColor: #0a66c2;
+    --githubColor: #53ffd4;
 }
 
 .title {
     text-align: center;
-    color: var(--color3);
+    color: var(--color4);
 }
 
 .contact {
@@ -20,7 +21,8 @@
 .linkedin_title,
 .email_title,
 .insta_title,
-.wsp_title {
+.wsp_title,
+.github_title {
     color: var(--color3a);
     user-select: none;
 }
@@ -54,6 +56,11 @@
     stroke: var(--linkedinColor);
 }
 
+.github_div:hover .github_title,
+.github_div:hover .github_svg {
+    color: var(--githubColor);
+    stroke: var(--githubColor);
+}
 
 @media (max-width: 599px) {
     .contact {
