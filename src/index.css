@@ -1,6 +1,7 @@
 :root {
   --color1: #640092;
   --color2: #1b1b1b;
+  --color2a: #131313;
   --color3: #ffffff;
   --color3a: #d6d6d6;
   --color4: #ffc400;
@@ -11,4 +12,5 @@ body {
   background-color: var(--color2);
   margin: 0;
   font-family: var(--FFRaleway);
+  padding-bottom: 2rem;
 }

@@ -11,10 +11,6 @@
     text-align: center;
 }
 
-.title_project {
-    
-}
-
 .linkto {
     color: var(--color4);
     padding: 0.3rem;
@@ -23,6 +19,13 @@
     border: 1px solid var(--color4);
 }
 
+.togithub {
+    display: grid;
+}
+
+.github_svg {
+    place-items: right;
+}
 .project_p {
     margin: 1rem 0;
     color: var(--color3a);

@@ -37,3 +37,36 @@
 .tocontact:hover {
     text-decoration: underline;
 }
+
+.skills_div{
+    margin-top: 2rem;
+    border-top: 1px solid #464646;
+}
+
+.skills_title {
+    color: var(--color3);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.my_skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.tech {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color2a);
+    padding: 0.5rem;
+    border-radius: 9px;
+}
+
+.tech_p{
+    margin-bottom: 0.6rem;
+    color: var(--color3);
+}
