@@ -12,7 +12,7 @@ export default function Contact() {
 
     return (
         <>
-            <div>
+            <div className={styles.about}>
                 <h1 className={styles.title}>About Me</h1>
                 <div className={styles.resume}>
                     <p>To see my Resume click the button below, or you can <a className={styles.todownload} href={ResumeValentinoMicheloni} download='Valentino-Micheloni-Resume.pdf'>download it</a></p>
