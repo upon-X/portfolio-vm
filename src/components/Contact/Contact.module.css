@@ -50,6 +50,8 @@
 
 .todownload {
     color: var(--color4);
+    text-align: center;
+    margin: 0 16vw;
     text-decoration: none;
 }
 
