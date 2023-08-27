@@ -20,6 +20,54 @@
     flex-wrap: wrap;
 }
 
+.resume {
+    color: var(--color3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+
+.btn_resume {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid var(--color4a);
+    color: var(--color4a);
+    background-color: var(--color2);
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.btn_resume:hover {
+    border-color: var(--color4);
+    background-color: var(--color2a);
+    color: var(--color4);
+    -webkit-box-shadow: 0px 0px 63px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 63px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 63px -1px rgba(0, 0, 0, 0.75);
+}
+
+.todownload {
+    color: var(--color4);
+    text-decoration: none;
+}
+
+.todownload:hover {
+    text-decoration: underline;
+}
+
+.email_div,
+.linkedin_div,
+.insta_div,
+.wsp_div,
+.github_div {
+    background-color: var(--color2a);
+    width: 120px;
+    border-radius: 9px;
+    padding-bottom: 0.9rem;
+}
+
 .linkedin_title,
 .email_title,
 .insta_title,
@@ -31,7 +79,6 @@
 
 .logo_svg {
     pointer-events: all;
-    stroke: var(--color3a);
 }
 
 .wsp_div:hover .wsp_title,
@@ -54,7 +101,7 @@
 
 .linkedin_div:hover .linkedin_title,
 .linkedin_div:hover .linkedin_svg {
-    color: var(--linkedinColor);    
+    color: var(--linkedinColor);
     stroke: var(--linkedinColor);
 }
 
@@ -65,28 +112,23 @@
 }
 
 @media (max-width: 599px) {
-    /* .contact {
-        display: flex;
-        flex-direction: column;
-        align-items: center;    
-    } */
-        .github_svg {
-            stroke: var(--githubColor);
-        }
-    
-        .email_svg {
-            stroke: var(--emailColor);
-        }
-    
-        .insta_svg {
-            stroke: var(--instaColor);
-        }
-    
-        .linkedin_svg {
-            stroke: var(--linkedinColor);
-        }
-    
-        .wsp_svg {
-            stroke: var(--wspColor);
-        }
+    .github_svg {
+        stroke: var(--githubColor);
+    }
+
+    .email_svg {
+        stroke: var(--emailColor);
+    }
+
+    .insta_svg {
+        stroke: var(--instaColor);
+    }
+
+    .linkedin_svg {
+        stroke: var(--linkedinColor);
+    }
+
+    .wsp_svg {
+        stroke: var(--wspColor);
+    }
 }
