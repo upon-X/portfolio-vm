@@ -137,3 +137,15 @@
         stroke: var(--wspColor);
     }
 }
+
+@media (min-width: 1000px) {
+    .email_app {
+        display: none;
+    }
+}
+
+@media (max-width: 999px) {
+    .email_link {
+        display: none;
+    }
+}

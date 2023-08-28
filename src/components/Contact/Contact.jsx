@@ -8,6 +8,7 @@ export default function Contact() {
     const iglink = 'https://www.instagram.com/valemiche0/'
     const linkedinlink = 'https://www.linkedin.com/in/valentino-micheloni'
     const emaillink = `https://mail.google.com/mail/?view=cm&to=${myEmail}&su=Contact%20from%20Portfolio`
+    const emaillinkapp = `mailto:${myEmail}?subject=Contact%20from%20Portfolio.`
     const githublink = 'https://github.com/upon-X'
 
     return (
@@ -45,7 +46,15 @@ export default function Contact() {
                     <h3 className={styles.email_title}>
                         E-mail
                     </h3>
-                    <a className={styles.logo_svg} href={emaillink} target='_blank'>
+                    <a className={styles.email_link} href={emaillink} target='_blank'>
+                        {/* GMAIL SVG */}
+                        <svg xmlns="http://www.w3.org/2000/svg" className={styles.email_svg} stroke='#d6d6d6' class="icon icon-tabler icon-tabler-mail" width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                            <path d="M3 7l9 6l9 -6" />
+                        </svg>
+                    </a>
+                    <a className={styles.email_app} href={emaillinkapp} target='_blank'>
                         {/* GMAIL SVG */}
                         <svg xmlns="http://www.w3.org/2000/svg" className={styles.email_svg} stroke='#d6d6d6' class="icon icon-tabler icon-tabler-mail" width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
