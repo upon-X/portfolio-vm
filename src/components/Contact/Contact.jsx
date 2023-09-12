@@ -18,9 +18,9 @@ export default function Contact() {
                 <h1 className={styles.title}>About Me</h1>
                 <div className={styles.resume}>
                     <p>I studied Full Stack Developer in <a className={styles.to_henry} href='https://www.soyhenry.com/' target='_blank'>Henry´s Bootcamp</a> and a couple of courses from<a className={styles.to_henry} href='https://www.udemy.com/es/' target='_blank'> Udemy</a></p>
-                </div>
-                <div className={styles.resume}>
                     <p>To see my Resume click the button below, or you can <a className={styles.todownload} href={ResumeValentinoMicheloni} download='Valentino-Micheloni-Resume.pdf'>download it</a></p>
+                </div>
+                <div className={styles.resume2}>
                     <a href='https://drive.google.com/file/d/1Unv-73VoOsEx3Jyn90hZVM-Mhj2lOr9w/view?usp=drive_link' target='_blank' rel='noopener noreferrer' >
                         <button className={styles.btn_resume}>
                             Resume
