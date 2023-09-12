@@ -1,20 +1,12 @@
-:root {
-    --wspColor: #25D366;
-    --instaColor: #ff0055;
-    --emailColor: #cedd00;
-    --linkedinColor: #0a66c2;
-    --githubColor: #53ffd4;
-}
-
 .title {
     text-align: center;
     color: var(--color4);
 }
 
 .contact {
+    margin: 2rem;
     display: flex;
     justify-content: space-evenly;
-    margin: 0 16vw;
     text-align: center;
     gap: 2rem;
     flex-wrap: wrap;
@@ -61,6 +53,10 @@
 .todownload:hover {
     text-decoration: underline;
 }
+.to_henry{
+    color: var(--color4);
+    text-decoration: none;
+}
 
 .email_div,
 .linkedin_div,
@@ -71,75 +67,25 @@
     width: 120px;
     border-radius: 9px;
     padding-bottom: 0.9rem;
-}
-
-.linkedin_title,
-.email_title,
-.insta_title,
-.wsp_title,
-.github_title {
+    border: 1px solid transparent;
     color: var(--color3a);
-    user-select: none;
+    transition: ease-in-out 0.15s;
+    text-decoration: none;
 }
 
-.logo_svg {
-    pointer-events: all;
+.email_div:hover,
+.linkedin_div:hover,
+.insta_div:hover,
+.github_div:hover,
+.wsp_div:hover {
+    border: 1px solid var(--color4);
+    color: var(--color4);
+    stroke: var(--color4);
 }
 
-.wsp_div:hover .wsp_title,
-.wsp_div:hover .wsp_svg {
-    color: var(--wspColor);
-    stroke: var(--wspColor);
-}
-
-.insta_div:hover .insta_title,
-.insta_div:hover .insta_svg {
-    color: var(--instaColor);
-    stroke: var(--instaColor);
-}
-
-.email_div:hover .email_title,
-.email_div:hover .email_svg {
-    color: var(--emailColor);
-    stroke: var(--emailColor);
-}
-
-.linkedin_div:hover .linkedin_title,
-.linkedin_div:hover .linkedin_svg {
-    color: var(--linkedinColor);
-    stroke: var(--linkedinColor);
-}
-
-.github_div:hover .github_title,
-.github_div:hover .github_svg {
-    color: var(--githubColor);
-    stroke: var(--githubColor);
-}
-
-@media (max-width: 599px) {
-    .github_svg {
-        stroke: var(--githubColor);
-    }
-
-    .email_svg {
-        stroke: var(--emailColor);
-    }
-
-    .insta_svg {
-        stroke: var(--instaColor);
-    }
-
-    .linkedin_svg {
-        stroke: var(--linkedinColor);
-    }
-
-    .wsp_svg {
-        stroke: var(--wspColor);
-    }
-}
 
 @media (min-width: 1000px) {
-    .email_app {
+    .email_link_app {
         display: none;
     }
 }

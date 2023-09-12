@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Home.module.css';
 import { Link } from 'react-router-dom'
 import profile from '../../assets/imagencv.webp'
+import Contact from '../Contact/Contact'
+import Projects from '../Projects/Projects';
 
 export default function Home() {
     return (
@@ -19,16 +21,14 @@ export default function Home() {
             </div>
             <div>
                 <p className={styles.description}>
-                    Welcome to my portfolio. You can see my
-                    <Link to='/projects' className={styles.toprojects}> projects </Link>
-                    or talk to me through my
-                    <Link to='/contact' className={styles.tocontact}> contact networks </Link>
+                    Welcome to my portfolio. You can see my projects
+                    or talk to me through my contact networks
                 </p>
             </div>
             <div className={styles.skills_div}>
-                <h2 className={styles.skills_title}>
+                <h1 className={styles.skills_title}>
                     My skills
-                </h2>
+                </h1 >
                 <div className={styles.my_skills}>
                     <div className={styles.tech}>
                         {/* HTML COLOR */}
@@ -122,6 +122,12 @@ export default function Home() {
                         <p className={styles.tech_p}>Sequelize</p>
                     </div>
                 </div>
+            </div>
+            <div className={styles.projects_div}>
+                <Projects />
+            </div>
+            <div className={styles.contact_div}>
+                <Contact />
             </div>
         </div>
     )

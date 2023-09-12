@@ -1,13 +1,12 @@
 .home {
     display: grid;
-    margin: 0 16vw;
+    margin: 2rem 16vw;
     transition: ease-in-out;
-    margin-bottom: 2rem;
 }
 
 .title {
     display: grid;
-        grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 0.5fr;
     margin-bottom: 2rem;
 }
 
@@ -40,6 +39,7 @@
     -moz-box-shadow: 0px 0px 63px -11px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 63px -11px rgba(0, 0, 0, 0.75);
 }
+
 .description {
     color: var(--color3);
     font-size: 1.2rem;
@@ -57,15 +57,17 @@
     text-decoration: underline;
 }
 
-.skills_div{
+.projects_div,
+.contact_div,
+.skills_div {
     margin-top: 2rem;
     border-top: 1px solid #464646;
 }
 
 .skills_title {
-    color: var(--color3);
     text-align: center;
-    margin-bottom: 2rem;
+    color: var(--color4);
+
 }
 
 .my_skills {
@@ -85,13 +87,13 @@
     border-radius: 9px;
 }
 
-.tech_p{
+.tech_p {
     margin-bottom: 0.6rem;
     color: var(--color3);
 }
 
 @media (max-width: 599px) {
-    .title{
+    .title {
         display: flex;
         flex-direction: column;
         align-items: center;
